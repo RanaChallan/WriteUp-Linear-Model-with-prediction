@@ -46,6 +46,12 @@ The numerical results confirmed the positive corelation of the scatter plot of S
 The larger the number we get, the larger the correlation between the two is. From this data, we can see that there is a small correspondence between the two since the number is approaching 1. 
 
 
+### Inferential Results Model 1
+
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
 
 
 
